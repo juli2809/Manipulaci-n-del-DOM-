@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+
+    <h2>Productos</h2>
+    <div class="productos">
+        <div class="producto">
+            <p>📱 Smartphone - $800</p>
+            <button onclick="agregarAlCarrito('Smartphone', 800)">Agregar</button>
+        </div>
+        <div class="producto">
+            <p>💻 Laptop - $1200</p>
+            <button onclick="agregarAlCarrito('Laptop', 1200)">Agregar</button>
+        </div>
+        <div class="producto">
+            <p>🎧 Audífonos - $200</p>
+            <button onclick="agregarAlCarrito('Audífonos', 200)">Agregar</button>
+        </div>
+    </div>
+
+    <h2>🛒 Carrito</h2>
+    <ul id="carrito"></ul>
+    <p><strong>Total: $<span id="total">0</span></strong></p>
+    <button id="vaciarCarrito">Vaciar Carrito</button>
+
+    <script src="app.js"></script>
+</body>
+</html>

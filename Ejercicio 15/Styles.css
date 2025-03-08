@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+#btnArriba {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none; 
+    transition: opacity 0.3s ease;
+}
+
+#btnArriba:hover {
+    background-color: darkblue;
+}

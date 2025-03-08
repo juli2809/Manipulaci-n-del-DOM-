@@ -1,0 +1,42 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+/* Modo claro (por defecto) */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Modo oscuro */
+body.oscuro {
+    background-color: #121212;
+    color: white;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Botón de cambio de tema */
+button {
+    padding: 10px 15px;
+    border: none;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
